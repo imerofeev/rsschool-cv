@@ -16,7 +16,7 @@
    * `HTML` 
    * `CSS`
    * `JavaScript`
-   * `LESS` / `SCSS`
+   * `LESS` / `Sass (SCSS)`
    * `Gulp`
    * `Git`
    * `Photoshop`
