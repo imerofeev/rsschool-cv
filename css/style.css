@@ -1,0 +1,87 @@
+body {
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.color-header {
+  background-color: #009900;
+  color: #FFFFFF;
+  padding: 10px 10px;
+}
+
+.my-info {
+  justify-content: space-between;
+}
+
+section {
+  margin: 20px 0;
+}
+
+li {
+  margin: 15px 0;
+}
+
+.my-name {
+  font-size: 30px;
+}
+
+.my-photo {
+  max-width: 400px;
+}
+
+.link {
+  color:#009900;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:active,
+.link:visited {
+  color: #33FF00;
+  text-decoration: underline;
+}
+
+.code {
+  background: #CCCC99;
+  border-radius: 8px;
+  max-width: 550px;
+}
+
+footer {
+  background-color: #009900;
+  color: #FFFFFF;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.social {
+  list-style: none;
+  justify-content: space-around;
+  margin: 0;
+  padding: 30px;
+}

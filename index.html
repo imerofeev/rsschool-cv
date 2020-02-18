@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Comfortaa:700&amp;subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header class="container">
+      <div class="color-header">
+        <h1>Resume</h1>
+      </div>
+      <div class="flex my-info">
+        <section>
+          <h2>First, Last Name:</h2>
+          <p class="my-name">Ilia Erofeev</p>
+          <img class="my-photo" src="img/photo.jpg" alt="Ilia Erofeev">
+        </section>
+        <section>
+          <h2>Contact Info:</h2>
+          <p>E-mail: <a class="link" href="mailto:imerofeev@gmail.com">imerofeev@gmail.com</a></p>
+          <p>Phone Number: <a class="link" href="tel:+79108433568">+7(910)843-35-68</a></p>
+          <p>telegram: <a class="link" href="https://teleg.run/imerofeev" target="_blank">imerofeev</a></p>
+        </section>
+      </div>
+    </header>
+    <main class="container">
+      <section>
+        <h2>Summary:</h2>
+        <p>I want to become a front-end developer and find a job</p>
+        <p>I want to develop in the field of modern front-end development</p>
+      </section>
+      <section>
+        <h2>Skills:</h2>
+        <ul>
+          <li class="skill-li">HTML</li>
+          <li class="skill-li">CSS</li>
+          <li class="skill-li">JavaScript</li>
+          <li class="skill-li">LESS / Sass (SCSS)</li>
+          <li class="skill-li">Gulp</li>
+          <li class="skill-li">Git</li>
+          <li class="skill-li">Photoshop</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Code Examples</h2>
+        <div class="code">
+          <pre>
+            <code >
+              const isPalindrome = (str) => {
+                if (str == undefined) {
+                  return false;
+                }
+                if (str.length == 0) {
+                  return false;
+                }
+                let string = str.toString().replace(/[^\w]/gi, "").toLowerCase();
+                return string == string.split('').reverse().join('');
+              };
+            
+              export default isPalindrome;
+            </code>
+          </pre>
+        </div>
+        <a class="link" href="https://github.com/imerofeev" target="_blank">More code examples on GitHub</a>
+      </section>
+      <section>
+        <h2>Experience</h2>
+        <p>I have a little experience in modern front-end.</p> 
+        <p>All my projects are on <a class="link" href="https://github.com/imerofeev" target="_blank">GitHub</a></p>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <ul>
+          <li><a class="link" href="https://htmlacademy.ru/profile/imerofeev" target="_blank">HTMLAcademy profile</a></li>
+          <li><a class="link" href="https://www.codecademy.com/profiles/imerofeev" target="_blank">Codeacademy profile</a></li>
+          <li><a class="link" href="https://www.coursera.org/user/92528d852cd5ed94861b144b175c29f0" target="_blank">Coursera profile</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>English</h2>
+        <p>My English is A2 (pre-intermediate)</p>
+      </section>
+    </main>
+    <footer class="container">
+      <ul class="flex social">
+        <li>
+          <a class="social-link-vk" href="https://vk.com/imerofeev" target="_blank"><img src="img/icon-vk.svg"><span class="visually-hidden">Vkontakte</span></a>
+        </li>
+        <li>
+          <a class="social-link-inst" href="https://instagram.com/imerofeev" target="_blank"><img src="img/icon-inst.svg"><span class="visually-hidden">Instagram</span></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
