@@ -85,17 +85,3 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 30px;
 }
-
-.social-link-vk::after {
-  content: "";
-  position: absolute;
-  top: -45px;
-  right: 0;
-  width: 10px;
-  height: 279px;
-  background: url("../img/icon-vk.svg") no-repeat 0 0;
-}
-
-.social-link-inst {
-  background: url("../img/icon-inst.svg") no-repeat 0 0;
-}
