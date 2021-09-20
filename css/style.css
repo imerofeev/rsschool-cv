@@ -4,6 +4,14 @@ body {
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+.contact-title {
+  font-size: 25px;
+}
+
 .container {
   max-width: 1024px;
   margin: 0 auto;
@@ -57,7 +65,7 @@ li {
 .code {
   background: #CCCC99;
   border-radius: 8px;
-  max-width: 600px;
+  width: 600px;
 }
 
 footer {
@@ -84,4 +92,8 @@ input[type="radio"].visually-hidden {
   justify-content: space-around;
   margin: 0;
   padding: 30px;
+}
+
+.rs-school_logo {
+  width: 100px;
 }
